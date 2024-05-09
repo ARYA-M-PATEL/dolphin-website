@@ -975,46 +975,12 @@ textarea {
   } */
 }
 
-@media screen and (max-width: 991.98px) {
+/* @media screen and (max-width: 991.98px) {
   .rev-col {
     display: flex;
     flex-direction: column-reverse;
   }
-  .call-info,
-  .social-links {
-    width: fit-content;
-  }
-  .top-contact {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
-  }
-  .dolphin-nav .navbar .navbar-nav {
-    display: flex;
-    gap: 0;
-  }
-  .dolphin-nav .navbar .navbar-nav .nav-item a {
-    font-size: 1.8rem;
-  }
-  .common-section {
-    margin: 0.5rem 0rem 0rem 0rem;
-    padding: 25px 20px;
-  }
-  .comm-head {
-    font-size: 30px;
-    margin-bottom: 5px;
-  }
-  .btn {
-    margin-top: 15px;
-  }
-  .bg-blue {
-    background-color: var(--white);
-    color: var(--black);
-  }
-  .bg-blue P {
-    color: var(--black);
-  }
-}
+} */
 
 @media screen and (max-width: 767.98px) {
   .rev-col {
@@ -1023,7 +989,6 @@ textarea {
   }
   .top-contact {
     display: flex;
-    justify-content: center;
   }
   .call-info {
     display: flex;
@@ -1042,8 +1007,8 @@ textarea {
     font-size: 20px;
   }
   .dolphin-nav .navbar .nav-logo {
-    height: 65px;
-    width: 180px;
+    height: 50px;
+    width: 160px;
   }
   .dolphin-nav .navbar .navbar-nav {
     display: flex;
@@ -1079,7 +1044,7 @@ textarea {
   }
   .about-img,
   .ab-img {
-    height: 400px;
+    height: 300px;
   }
   .Experiment-image .Experiment-img {
     height: 400px;
@@ -1143,14 +1108,11 @@ textarea {
   .ab-img {
     width: 100%;
     position: relative;
-    height: 400px;
+    /* height: 400px; */
   }
   .product-materail {
     margin: 30px 0 0 0;
     position: relative;
-  }
-  .page-content {
-    font-size: 65px;
   }
 }
 
@@ -1175,10 +1137,7 @@ textarea {
     justify-content: center;
     align-items: center;
   }
-  .top-contact {
-    display: flex;
-    justify-content: center;
-  }
+
   .top-bars {
     top: -1px;
   }
@@ -1190,11 +1149,11 @@ textarea {
   }
 
   .top-bar .fa-icon {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   .top-bar a {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .social-links {
