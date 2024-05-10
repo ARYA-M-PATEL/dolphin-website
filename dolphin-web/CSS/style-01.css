@@ -980,39 +980,133 @@ textarea {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .call-info,
   .social-links {
     width: fit-content;
   }
+
   .top-contact {
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
   }
+
   .dolphin-nav .navbar .navbar-nav {
     display: flex;
     gap: 0;
   }
+
   .dolphin-nav .navbar .navbar-nav .nav-item a {
     font-size: 1.8rem;
   }
+
+  .dolphin-nav .navbar .nav-logo {
+    height: 65px;
+    width: 175px;
+  }
+
+  .dolphin-nav .navbar {
+    padding: 0.5rem 0;
+  }
+
   .common-section {
     margin: 0.5rem 0rem 0rem 0rem;
-    padding: 25px 20px;
+    padding: 15px 20px;
   }
+
   .comm-head {
     font-size: 30px;
     margin-bottom: 5px;
   }
+
   .btn {
     margin-top: 15px;
   }
+
   .bg-blue {
     background-color: var(--white);
     color: var(--black);
   }
+
   .bg-blue P {
     color: var(--black);
+  }
+
+  .about-img,
+  .ab-img {
+    height: 400px;
+  }
+
+  .page-img,
+  .ab-img {
+    height: 400px;
+  }
+
+  .Experiment-image .Experiment-img {
+    height: 350px;
+  }
+
+  .working-portion .work-details,
+  .our-details {
+    margin-top: 1rem;
+  }
+
+  .ll-tx h3 {
+    color: var(--white);
+  }
+
+  .ll-demo h3,
+  .rr-demo h3 {
+    color: var(--white) !important;
+  }
+
+  .ll-demo p,
+  .rr-demo p {
+    color: var(--white);
+  }
+
+  .rr-demo {
+    background-color: #002968;
+  }
+
+  .ll,
+  .rr {
+    width: 90%;
+  }
+
+  .ll-tx,
+  .rr-tx {
+    margin: 5rem 0;
+    width: 90%;
+  }
+
+  .ll-tx {
+    text-align: start;
+  }
+
+  .lr1 .lr-text {
+    font-size: 15rem;
+    font-weight: 600;
+    opacity: 0.2;
+    color: var(--white);
+  }
+
+  .lr2 .lr-text {
+    font-size: 15rem;
+    font-weight: 600;
+    opacity: 0.2;
+    color: var(--white);
+  }
+  .ll-demo,
+  .rr-demo {
+    padding: 20px 0;
+  }
+  .lr1 {
+    left: 83.5%;
+  }
+  .lr2 {
+    left: 12%;
   }
 }
 
@@ -1021,84 +1115,106 @@ textarea {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .top-contact {
     display: flex;
     justify-content: center;
   }
+
   .call-info {
     display: flex;
     justify-content: center;
     padding: 0 15px;
     gap: 10px;
   }
+
   .social-links {
     display: flex;
     justify-content: center;
   }
+
   .top-bar a {
     font-size: 15px;
   }
+
   .top-bar .fa-icon {
     font-size: 20px;
   }
+
   .dolphin-nav .navbar .nav-logo {
     height: 65px;
     width: 180px;
   }
+
   .dolphin-nav .navbar .navbar-nav {
     display: flex;
     gap: 0.2rem;
   }
+
   .dolphin-nav .navbar .navbar-nav .nav-item a {
     line-height: 15px;
   }
+
   .common-section {
     margin: 0.5rem 0rem 0rem 0rem;
     padding: 25px 20px;
   }
+
   .comm-head {
     font-size: 25px;
     margin-bottom: 5px;
   }
+
   .btn {
     margin-top: 1rem;
   }
+
   .bg-blue {
     background-color: var(--white);
     color: var(--black);
   }
+
   .bg-blue P {
     color: var(--black);
   }
+
   .working-portion .work-details,
   .our-details {
     margin-top: 15px;
   }
+
   .common-text-content {
     padding: 15px 15px;
   }
+
   .about-img,
   .ab-img {
     height: 400px;
   }
+
   .Experiment-image .Experiment-img {
     height: 400px;
   }
+
   .bg-blue {
     background-color: var(--white);
     color: var(--black);
   }
+
   .ll-tx h3 {
     color: var(--white);
   }
+
   .ll-demo h3,
   .rr-demo h3 {
     color: var(--white) !important;
   }
+
   .ll-demo p,
   .rr-demo p {
     color: var(--white);
   }
+
   .lr1 .lr-text {
     font-size: 160px;
     display: flex;
@@ -1106,6 +1222,7 @@ textarea {
     opacity: 0.2;
     color: var(--white);
   }
+
   .lr2 .lr-text {
     font-size: 160px;
     display: flex;
@@ -1113,42 +1230,52 @@ textarea {
     opacity: 0.2;
     color: var(--white);
   }
+
   .ll-tx,
   .rr-tx {
     margin: 50px 0;
   }
+
   .ll-tx {
     text-align: start;
   }
+
   .ll-tx,
   .rr-tx {
     width: 100%;
   }
+
   .ll,
   .rr {
     width: 95%;
   }
+
   .ll-demo,
   .rr-demo {
     padding: 15px 0;
     position: relative;
   }
+
   .rr-demo {
     background-color: #212529;
   }
+
   .raw-image {
     height: 300px;
   }
+
   .page-img,
   .ab-img {
     width: 100%;
     position: relative;
     height: 400px;
   }
+
   .product-materail {
     margin: 30px 0 0 0;
     position: relative;
   }
+
   .page-content {
     font-size: 65px;
   }
@@ -1175,10 +1302,12 @@ textarea {
     justify-content: center;
     align-items: center;
   }
+
   .top-contact {
     display: flex;
     justify-content: center;
   }
+
   .top-bars {
     top: -1px;
   }
