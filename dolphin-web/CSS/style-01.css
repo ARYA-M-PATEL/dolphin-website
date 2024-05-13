@@ -872,6 +872,7 @@ textarea {
   margin: 1rem 0;
   font-size: 2rem;
   padding: 0.5rem;
+  border: 1px solid black;
 }
 
 input,
