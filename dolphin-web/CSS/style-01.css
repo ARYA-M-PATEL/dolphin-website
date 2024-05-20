@@ -39,7 +39,7 @@
   --bg-color: #f9f9f9;
   --icon-bg: rgba(144, 172, 209, 0.2);
   --gradient: linear-gradient(90deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
-  --box-shadow: 0px 15px 15px 0px rgb(132 144 255 / 30%);
+  --box-shadow: 0rem 1.5rem 1.5rem 0rem rgb(132 144 255 / 30%);
   --hover-color: #2f7aeb;
   --btn-padding: 1rem 2rem;
 }
@@ -91,7 +91,7 @@ h5 {
 p {
   color: var(--black);
   line-height: 1.3;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 a {
@@ -116,18 +116,18 @@ li {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 1.5rem;
 }
 
 .container,
 .container-fluid {
   display: block;
   justify-content: center;
-  /* padding: 0 15px; */
+  /* padding: 0 1.5rem; */
 }
 
 .common-text-content {
-  padding: 25px 20px;
+  padding: 2.5rem 2rem;
 }
 
 .common-section {
@@ -136,11 +136,11 @@ li {
 }
 
 .btn {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   color: var(--white);
   background: var(--heading);
-  border-radius: 20px;
+  border-radius: 2rem;
   padding: var(--btn-padding);
   margin-top: 3rem;
 }
@@ -224,8 +224,8 @@ li {
   height: 90%;
   background-color: transparent;
   z-index: 5;
-  border: 5px solid #e7e7e7;
-  /* border: 10px solid rgb(237, 233, 233); */
+  border: 0.5rem solid #e7e7e7;
+  /* border: 1rem solid rgb(237, 233, 233); */
 }
 
 /* ============= / Reusable code End ========== */
@@ -276,8 +276,8 @@ li {
 }
 
 .dolphin-nav .navbar .nav-logo {
-  height: 75px;
-  width: 200px;
+  height: 7.5rem;
+  width: 20rem;
 }
 
 .dolphin-nav .navbar .nav-logo img {
@@ -316,7 +316,7 @@ li {
 
 .dolphin-nav .navbar .navbar-nav .nav-item form .btn {
   background: var(--heading);
-  border: 1px solid var(--heading);
+  border: 0.1rem solid var(--heading);
 }
 
 .dolphin-nav .navbar .navbar-nav .nav-item form .btn:hover {
@@ -364,9 +364,9 @@ li {
 
 .page-content {
   color: #ffffff;
-  text-shadow: 10px 5px 5px #000;
+  text-shadow: 1rem 0.5rem 0.5rem #000;
   position: absolute;
-  font-size: 80px;
+  font-size: 8rem;
   top: 50%;
   left: 50%;
   width: 100%;
@@ -426,7 +426,7 @@ li {
 
 .Experiment-image .Experiment-img {
   width: 100%;
-  height: 600px;
+  height: 60rem;
   position: relative;
 }
 
@@ -513,19 +513,19 @@ li {
   width: 95%;
   justify-content: center;
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--para);
+  border-bottom: 0.1rem solid var(--para);
 }
 
 .working-portion .work-details .w-links .w-link,
 .our-links .our-link {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .w-link-active,
 .our-link-active {
   transform: translateY(-0.5rem);
-  border-bottom: 2px solid var(--heading);
+  border-bottom: 0.2rem solid var(--heading);
 }
 
 .w-text-not-active,
@@ -551,7 +551,7 @@ li {
 }
 
 .list-para {
-  padding: 0 5px 30px 30px;
+  padding: 0 0.5rem 3rem 3rem;
 }
 
 /* ============= / Why End ========== */
@@ -650,14 +650,14 @@ li {
 .about-img,
 .ab-img {
   width: 100%;
-  height: 600px;
+  height: 60rem;
   position: relative;
 }
 
 .page-img,
 .ab-img {
   width: 100%;
-  height: 600px;
+  height: 60rem;
 }
 
 .ab-img {
@@ -710,7 +710,7 @@ img {
 
 .ll-demo,
 .rr-demo {
-  padding: 50px 0;
+  padding: 5rem 0;
   position: relative;
 }
 
@@ -793,8 +793,8 @@ img {
 }
 
 .product {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   transition: all 0.7s linear;
 }
 
@@ -872,12 +872,12 @@ textarea {
   margin: 1rem 0;
   font-size: 2rem;
   padding: 0.5rem;
-  border: 1px solid black;
+  border: 0.1rem solid black;
 }
 
 input,
 textarea {
-  border: 2px solid white;
+  border: 0.2rem solid white;
 }
 
 /* ============= / career End ========== */
@@ -910,7 +910,7 @@ textarea {
 
 /* ============= ! product-table ========== */
 .product-table tr td {
-  border: 1px solid var(--black);
+  border: 0.1rem solid var(--black);
   margin: 2rem 0;
   font-size: 2rem;
   color: var(--black);
@@ -918,15 +918,15 @@ textarea {
 }
 
 .product-table tr td {
-  border: 1px solid var(--black);
+  border: 0.1rem solid var(--black);
 }
 
 .product-table tr th {
   font-size: 2rem;
   background: #124b85;
   color: #fff;
-  border: 1px solid var(--black);
-  border-right: 1px solid var(--white);
+  border: 0.1rem solid var(--black);
+  border-right: 0.1rem solid var(--white);
   padding: 0.5rem;
 }
 
@@ -934,7 +934,7 @@ textarea {
 
 /* ============= ! contact ========== */
 .our-contact {
-  border: 2px solid var(--heading);
+  border: 0.2rem solid var(--heading);
   margin-top: 5rem;
   margin-bottom: 5rem;
   border-radius: 2rem;
@@ -954,7 +954,7 @@ textarea {
   }
 
   .common-text-content {
-    padding: 25px 20px;
+    padding: 2.5rem 2.0rem;
   }
 
   .why-image img {
@@ -971,7 +971,7 @@ textarea {
   .vedio-portion,
   .home-vedio,
   video {
-    max-height: 400px;
+    max-height: 40rem;
     width: 100%;
   } */
 }
@@ -990,7 +990,7 @@ textarea {
   .top-contact {
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
+    padding: 0 1.5rem;
   }
 
   .dolphin-nav .navbar .navbar-nav {
@@ -1003,8 +1003,8 @@ textarea {
   }
 
   .dolphin-nav .navbar .nav-logo {
-    height: 65px;
-    width: 175px;
+    height: 6.5rem;
+    width: 17.5rem;
   }
 
   .dolphin-nav .navbar {
@@ -1013,16 +1013,16 @@ textarea {
 
   .common-section {
     margin: 0.5rem 0rem 0rem 0rem;
-    padding: 15px 20px;
+    padding: 1.5rem 2rem;
   }
 
   .comm-head {
-    font-size: 30px;
-    margin-bottom: 5px;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
   }
 
   .btn {
-    margin-top: 15px;
+    margin-top: 1.5rem;
   }
 
   .bg-blue {
@@ -1036,16 +1036,16 @@ textarea {
 
   .about-img,
   .ab-img {
-    height: 400px;
+    height: 40rem;
   }
 
   .page-img,
   .ab-img {
-    height: 400px;
+    height: 40rem;
   }
 
   .Experiment-image .Experiment-img {
-    height: 350px;
+    height: 35rem;
   }
 
   .working-portion .work-details,
@@ -1101,7 +1101,7 @@ textarea {
   }
   .ll-demo,
   .rr-demo {
-    padding: 20px 0;
+    padding: 2rem 0;
   }
   .lr1 {
     left: 83.5%;
@@ -1125,8 +1125,8 @@ textarea {
   .call-info {
     display: flex;
     justify-content: center;
-    padding: 0 15px;
-    gap: 10px;
+    padding: 0 1.5rem;
+    gap: 1rem;
   }
 
   .social-links {
@@ -1135,16 +1135,16 @@ textarea {
   }
 
   .top-bar a {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   .top-bar .fa-icon {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .dolphin-nav .navbar .nav-logo {
-    height: 65px;
-    width: 180px;
+    height: 6.5rem;
+    width: 18rem;
   }
 
   .dolphin-nav .navbar .navbar-nav {
@@ -1153,17 +1153,17 @@ textarea {
   }
 
   .dolphin-nav .navbar .navbar-nav .nav-item a {
-    line-height: 15px;
+    line-height: 1.5rem;
   }
 
   .common-section {
     margin: 0.5rem 0rem 0rem 0rem;
-    padding: 25px 20px;
+    padding: 2.5rem 2rem;
   }
 
   .comm-head {
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .btn {
@@ -1181,20 +1181,20 @@ textarea {
 
   .working-portion .work-details,
   .our-details {
-    margin-top: 15px;
+    margin-top: 1.5rem;
   }
 
   .common-text-content {
-    padding: 15px 15px;
+    padding: 1.5rem 1.5rem;
   }
 
   .about-img,
   .ab-img {
-    height: 400px;
+    height: 40rem;
   }
 
   .Experiment-image .Experiment-img {
-    height: 400px;
+    height: 40rem;
   }
 
   .bg-blue {
@@ -1217,7 +1217,7 @@ textarea {
   }
 
   .lr1 .lr-text {
-    font-size: 160px;
+    font-size: 16rem;
     display: flex;
     transform: rotate(300deg);
     opacity: 0.2;
@@ -1225,7 +1225,7 @@ textarea {
   }
 
   .lr2 .lr-text {
-    font-size: 160px;
+    font-size: 16rem;
     display: flex;
     transform: rotate(300deg);
     opacity: 0.2;
@@ -1234,7 +1234,7 @@ textarea {
 
   .ll-tx,
   .rr-tx {
-    margin: 50px 0;
+    margin: 5rem 0;
   }
 
   .ll-tx {
@@ -1253,7 +1253,7 @@ textarea {
 
   .ll-demo,
   .rr-demo {
-    padding: 15px 0;
+    padding: 1.5rem 0;
     position: relative;
   }
 
@@ -1262,23 +1262,23 @@ textarea {
   }
 
   .raw-image {
-    height: 300px;
+    height: 30rem;
   }
 
   .page-img,
   .ab-img {
     width: 100%;
     position: relative;
-    height: 400px;
+    height: 40rem;
   }
 
   .product-materail {
-    margin: 30px 0 0 0;
+    margin: 3rem 0 0 0;
     position: relative;
   }
 
   .page-content {
-    font-size: 65px;
+    font-size: 6.5rem;
   }
 }
 
@@ -1292,7 +1292,7 @@ textarea {
   .container-fluid {
     display: flex;
     justify-content: center;
-    padding: 0 15px;
+    padding: 0 1.5rem;
   }
 
   .call-info {
@@ -1316,15 +1316,15 @@ textarea {
   p {
     color: var(--black);
     line-height: 1.3;
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .top-bar .fa-icon {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   .top-bar a {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 
   .social-links {
@@ -1351,31 +1351,31 @@ textarea {
   }
 
   .dolphin-nav .navbar .nav-logo {
-    height: 55px;
-    width: 150px;
+    height: 5.5rem;
+    width: 15rem;
   }
 
   .page-content {
-    font-size: 60px;
+    font-size: 6rem;
   }
 
   .section-carousel .page-content {
-    font-size: 35px;
+    font-size: 3.5rem;
     top: 10rem;
   }
 
   .common-section {
     margin: 0rem;
-    padding: 25px 20px;
+    padding: 2.5rem 2rem;
   }
 
   .comm-head {
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .common-text-content {
-    padding: 20px 10px;
+    padding: 2rem 1rem;
   }
 
   h2 {
@@ -1384,7 +1384,7 @@ textarea {
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .btn {
@@ -1394,7 +1394,7 @@ textarea {
 
   .Experiment-image .Experiment-img {
     width: 100%;
-    height: 300px;
+    height: 30rem;
     position: relative;
     object-fit: cover;
   }
@@ -1437,41 +1437,41 @@ textarea {
 
   .working-portion .work-details .w-links .w-link,
   .our-links .our-link {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 700;
     text-align: center;
   }
 
   .list-para {
-    padding: 0 5px 10px 30px;
+    padding: 0 0.5rem 1rem 3rem;
   }
 
   .about-img,
   .ab-img {
     width: 100%;
     position: relative;
-    height: 300px;
+    height: 30rem;
   }
 
   .page-img,
   .ab-img {
     width: 100%;
     position: relative;
-    height: 300px;
+    height: 30rem;
   }
 
   .working-portion .work-details,
   .our-details {
-    margin-top: 10px;
+    margin-top: 1rem;
   }
 
   .raw-image {
-    height: 200px;
+    height: 20rem;
   }
 
   .ll-demo,
   .rr-demo {
-    padding: 10px 0;
+    padding: 1rem 0;
     position: relative;
   }
 
@@ -1502,7 +1502,7 @@ textarea {
   .rr-tx {
     margin: 0;
     width: 100%;
-    padding: 20px;
+    padding: 2rem;
   }
 
   .ll-demo h3,
@@ -1520,7 +1520,7 @@ textarea {
 
   .product-table tr th,
   .product-table tr td {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .form {
@@ -1528,11 +1528,11 @@ textarea {
   }
 
   /* .choose-file {
-    border: 2px solid var(--heading);
+    border: 0.2rem solid var(--heading);
   } */
   input,
   textarea {
-    border: 2px solid var(--heading);
+    border: 0.2rem solid var(--heading);
   }
 
   .our-contact {
@@ -1540,12 +1540,12 @@ textarea {
   }
 
   .form1 label {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 600;
   }
 
   .form1 input {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }
 
