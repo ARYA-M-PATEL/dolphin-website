@@ -121,7 +121,7 @@ li {
 
 .container,
 .container-fluid {
-  display: block;
+  display: flex;
   justify-content: center;
   /* padding: 0 1.5rem; */
 }
@@ -232,6 +232,7 @@ li {
 
 /* ============= ! top-bar start ========== */
 .top-bar {
+  display: block;
   background: var(--heading);
 }
 
@@ -324,6 +325,10 @@ li {
 }
 
 /* ============= / dolphin-nav End ========== */
+
+.home-vedio {
+  display: flex;
+}
 
 /* ============= ! carousel start ========== */
 .section-carousel .wrapper2 {
@@ -658,6 +663,7 @@ li {
 .ab-img {
   width: 100%;
   height: 60rem;
+  position: relative;
 }
 
 .ab-img {
@@ -825,7 +831,12 @@ img {
   flex-direction: column;
   text-align: start;
 }
-
+.product .product-tx h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .product .product-tx p {
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -869,6 +880,13 @@ textarea {
 }
 
 .form1 input {
+  margin: 1rem 0;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: 0.1rem solid black;
+}
+
+.form1 textarea {
   margin: 1rem 0;
   font-size: 2rem;
   padding: 0.5rem;
@@ -948,32 +966,170 @@ textarea {
 /* ============= / contact ========== */
 
 /* ============= !  MediaQuery ========== */
-/* @media screen and (max-width: 1399.98px) {
+@media screen and (max-width: 1399.98px) {
+  .social-links {
+    text-align: center;
+  }
   .comm-head {
     margin-bottom: 2.5rem;
   }
-
-  .common-text-content {
-    padding: 2.5rem 2rem;
+  .bg-blue .comm-head {
+    color: var(--white);
   }
-
-  .why-image img {
-    object-fit: contain;
+  .bg-blue h3 {
+    color: var(--white);
   }
-} */
+  .exploring-items i {
+    font-size: 4rem;
+    color: white;
+    background: #002968;
+    padding: 0rem;
+    border-radius: 1rem;
+  }
+  .why-items i {
+    font-size: 4rem;
+    color: white;
+    background: #002968;
+    padding: 0rem;
+    border-radius: 1rem;
+  }
+  .ll {
+    width: 90%;
+  }
+  .rr {
+    width: 78%;
+  }
+  .ll-tx {
+    width: 75%;
+  }
+  .rr-tx {
+    width: 80%;
+  }
+  .lr1 {
+    left: 87%;
+  }
+  .lr2 {
+    left: 9%;
+  }
+  .ll-tx h3 {
+    color: var(--white);
+  }
+  .form1 input {
+    margin: 1rem 0;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.1rem solid black;
+  }
+  .our-contact {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
 
 @media screen and (max-width: 1199.98px) {
-  /* .rev-col {
-    display: flex;
-    flex-direction: column-reverse;
-  } */
-  /* .section-vedio,
-  .vedio-portion,
-  .home-vedio,
-  video {
-    max-height: 40rem;
+  p {
+    color: var(--black);
+    line-height: 1.3;
+    font-size: 1.6rem;
+  }
+
+  .social-number,
+  .social-links {
+    width: fit-content;
+  }
+  .dolphin-nav .navbar {
+    padding: 0.6rem 0;
+  }
+  .common-section {
+    padding: 2rem 2rem;
+  }
+  .comm-head {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: var(--heading);
+  }
+
+  .bg-blue .comm-head {
+    color: var(--white);
+  }
+  .bg-blue h3 {
+    color: var(--white);
+  }
+  .list-para {
+    padding: 0 0.1rem 1rem 2rem;
+  }
+  .btn {
+    margin-top: 1.5rem;
+  }
+  .page-img,
+  .ab-img,
+  .about-img,
+  .ab-img {
     width: 100%;
-  } */
+    height: 45rem;
+    position: relative;
+  }
+  .exploring-items i {
+    font-size: 3rem;
+    color: white;
+    background: #002968;
+    padding: 0rem;
+    border-radius: 1rem;
+  }
+  .why-items i {
+    font-size: 3rem;
+    color: white;
+    background: #002968;
+    padding: 0rem;
+    border-radius: 1rem;
+  }
+
+  .working-portion .work-details .w-links .w-link,
+  .our-links .our-link {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .working-portion .work-details,
+  .our-details {
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .ll {
+    width: 90%;
+  }
+  .rr {
+    width: 70%;
+  }
+  .lr1 {
+    left: 84.5%;
+  }
+  .lr2 {
+    left: 11%;
+  }
+  .ll-tx h3 {
+    color: var(--white);
+  }
+  .rr-tx {
+    margin: 10rem 0;
+    width: 83%;
+  }
+  .pc-img {
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+  }
+  .product .product-tx {
+    padding: 1rem;
+  }
+  .form1 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+  }
+  .our-contact {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -1099,13 +1255,16 @@ textarea {
     opacity: 0.2;
     color: var(--white);
   }
+
   .ll-demo,
   .rr-demo {
     padding: 2rem 0;
   }
+
   .lr1 {
     left: 83.5%;
   }
+
   .lr2 {
     left: 12%;
   }
