@@ -1308,14 +1308,32 @@ textarea {
   }
 
   .lr1 {
-    left: 83.5%;
+    left: 83%;
   }
 
   .lr2 {
-    left: 12%;
+    left: 15%;
+  }
+  .exploring-items i {
+    font-size: 2rem;
+    color: white;
+    background: #002968;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .why-items i {
+    font-size: 2rem;
+    color: white;
+    background: #002968;
+    padding: 1rem;
+    border-radius: 1rem;
   }
 }
-
+/* @media screen and (max-width: 900px) {
+  .lr2 {
+    left: 17%;
+  }
+} */
 @media screen and (max-width: 767.98px) {
   .rev-col {
     display: flex;
