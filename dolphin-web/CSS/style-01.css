@@ -91,7 +91,7 @@ h5 {
 p {
   color: var(--black);
   line-height: 1.3;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 a {
@@ -116,18 +116,18 @@ li {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 1.5rem;
 }
 
 .container,
 .container-fluid {
   display: block;
   justify-content: center;
-  /* padding: 0 15px; */
+  /* padding: 0 1.5rem; */
 }
 
 .common-text-content {
-  padding: 25px 20px;
+  padding: 2.5rem 2rem;
 }
 
 .common-section {
